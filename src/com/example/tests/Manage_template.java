@@ -22,7 +22,7 @@ public class Manage_template {
   @Test
   public void testFullManageTemplateModule() throws Exception {
     
-	//Login  
+	//Login into Portal 
 	  
 	driver.get(baseUrl + "/");
     driver.findElement(By.id("username")).clear();
